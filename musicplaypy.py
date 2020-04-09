@@ -41,7 +41,7 @@ def Browse():
     # Presenting user with a pop-up for file selection.
     # Retrieving the user-input audio file and storing it in audioFile variable
     # Setting the initialdir, title, filetypes arguments is optional
-    audioFile = filedialog.askopenfilename(initialdir = "/Users/abhijithwarrier/Music",
+    audioFile = filedialog.askopenfilename(initialdir = "/Users/Varshan/Music",
                                            title = "Select audio file",
                                            filetypes = (("MP3","*.mp3"),("WAV","*.wav")))
     # Setting the tkinter variable audioTrack (Displaying in trackEntry widget) to file-name
